@@ -1,0 +1,25 @@
+.Button
+{
+    all: unset;
+    border: 1px solid red;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 3px 13px;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    transition: .5s;
+}
+.Button:hover
+{
+    box-shadow: 0px 0px 8px -6px black;
+    background-color: #da3a3a;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+.Button:active
+{
+    transform: scale(0.9);
+    transition: .1s;
+}
