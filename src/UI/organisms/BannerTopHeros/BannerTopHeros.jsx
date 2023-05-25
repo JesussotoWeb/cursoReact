@@ -3,11 +3,11 @@ import BannerTopHerosCards from "../../melecules/BannerTopHerosCards/BannerTopHe
 import BannerTopHerosTextBoxes from "../../melecules/BannerTopHerosTextBoxes/BannerTopHerosTextBoxes";
 import styles from "./BannerTopHeros.module.css";
 
-const BannerTopHeros = () => {
+const BannerTopHeros = ({stateHome}) => {
   return (
     <div className={styles.BannerTopHeros}>
       <BannerTopHerosTextBoxes />
-      <BannerTopHerosCards />
+      <BannerTopHerosCards stateHome={stateHome} />
       <BannerDivisiones />
     </div>
   )

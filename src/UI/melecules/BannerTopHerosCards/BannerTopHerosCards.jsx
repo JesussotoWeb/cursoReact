@@ -4,7 +4,7 @@ import Title from "../../atoms/Title/Title";
 import styles from "./BannerTopHerosCards.module.css";
 import { useState } from "react";
 
-const BannerTopHerosCards = () => {
+const BannerTopHerosCards = ({stateHome}) => {
   const [datosForm, setDatosForm] = useState({
     Nombre: "",
     Clave: "",
@@ -47,7 +47,8 @@ const BannerTopHerosCards = () => {
   };
   return (
     <div className={styles.BannerCards}>
-      <form onSubmit={(event) => sendForm(event)} className={styles.form}>
+      {
+        stateHome ? <form onSubmit={(event) => sendForm(event)} className={styles.form}>
         <Title callback={() => {alert('aa')}} text="LogIn" edad={25} customClass={styles.BannerCards__title} />
         <div onClick={() => {alert('aa')}}>xxx</div>
         <Input
@@ -77,6 +78,10 @@ const BannerTopHerosCards = () => {
           </ul>
         )}
       </form>
+        :
+        ''
+      }
+      
 
       {dataCards.map((content, index) => {
         return (
