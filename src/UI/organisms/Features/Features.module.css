@@ -1,0 +1,27 @@
+.Features
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: -60px;
+
+}
+.Features__feature
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 198px;
+    background-color: #161925;
+    box-shadow: 0px 0px 10px 0px rgba(173.24999999999997, 173.24999999999997, 173.24999999999997, 0.35);
+    padding: 4em 1em 4em 1em;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Teko", Sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+
+}

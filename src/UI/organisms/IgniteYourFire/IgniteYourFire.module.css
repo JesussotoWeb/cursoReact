@@ -1,0 +1,62 @@
+.IgniteYourFire
+{
+    width: 100%;
+    height: 700px;
+    min-width: 700px;
+    background-image: url(/public/background_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.IgniteYourFire__colum
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.IgniteYourFire__row
+{
+    width: 65%;
+    margin-bottom: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.IgniteYourFire__btn
+{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+.IgniteYourFire__btn:hover
+{
+    box-shadow: none;
+    background-color: transparent;
+    border: 4px solid #000;
+}
+.IgniteYourFire__btn2
+{
+    box-shadow: none;
+    background-color: transparent;
+    border: 4px solid #000;
+}
+.IgniteYourFire__btn2:hover
+{
+    box-shadow: none;
+    background-color: white;
+    border: none;
+    color: #000;
+}

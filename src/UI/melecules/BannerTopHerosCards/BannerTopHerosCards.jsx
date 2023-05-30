@@ -17,9 +17,9 @@ const BannerTopHerosCards = ({stateHome}) => {
         "El Bodybuilding ya contaba con espacios para su desarrollo de manera tradicional, pero no disponía de una Plataforma Innovadora como WORLD STARS OPEN para Satisfacer las Necesidades de los Verdaderos Protagonistas en la Era Actual.",
     },
     {
-      title: "¿CÓMO?",
+      title: "¿CÓMO?f",
       description:
-        "Ponemos las Actividades, Mecanismos, Eventos y  Herramientas necesarias para el Crecimiento Integral de los Deportistas, Atletas y Fitness Models, a su entera disposición.",
+        "<p>Ponemos las Actividades, Mecanismos, Eventos y  Herramientas necesarias para el Crecimiento Integral de los Deportistas, Atletas y Fitness Models, a su entera disposición. </p> <p>Ponemos las Actividades, Mecanismos, Eventos y  Herramientas necesarias para el Crecimiento Integral de los Deportistas, Atletas y Fitness Models, a su entera disposición. </p>",
     },
     {
       title: "PROYECCIÓN",

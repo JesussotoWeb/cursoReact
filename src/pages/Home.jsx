@@ -1,20 +1,15 @@
-import BannerTopHeros from "../UI/organisms/BannerTopHeros/BannerTopHeros";
+import Features from "../UI/organisms/Features/Features";
+import IgniteYourFire from "../UI/organisms/IgniteYourFire/IgniteYourFire";
 import Footer from "../templates/Footer/Footer";
 import Header from "../templates/Header/Header";
-import { useState } from "react";
 
 const Home = () => {
-  const [showContact, setShowContact] = useState(false)
-
-  const changeHomeState = (opc) => {
-    setShowContact(opc)
-  }
-
   return (
     <>
-      <Header callback={changeHomeState} />
+      <Header />
       <main>
-        <BannerTopHeros stateHome={showContact} />
+        <IgniteYourFire />
+        <Features />
       </main>
       <Footer />
     </>
