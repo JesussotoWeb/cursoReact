@@ -1,0 +1,26 @@
+.TextBoxesWorldStarOpen
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.TextBoxesWorldStarOpen__title
+{
+    margin-bottom: 20px;
+    color: #050505;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+}
+.TextBoxesWorldStarOpen__paragraph
+{
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.BtnProximoEvento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.BtnProximoEvento__btn
+{
+    background-color: #B10005;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #B10005;
+    font-size: 18px;
+    padding: 25px 50px;
+    font-family: arial;
+    font-weight: 300;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    width: 230px;
+    height: 100px;
+    display: block;
+}
+.BtnProximoEvento__title
+{
+    color: #fff;
+    font-size: 38px;
+}

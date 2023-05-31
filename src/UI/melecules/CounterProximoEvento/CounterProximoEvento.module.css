@@ -1,0 +1,10 @@
+.CounterProximoEvento__segundosContainer
+{
+    width: 30%;
+    background-color: #fff;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

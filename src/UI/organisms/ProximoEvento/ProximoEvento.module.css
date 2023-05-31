@@ -1,0 +1,10 @@
+.ProximoEvento
+{
+    margin-top: 100px;
+    background-image: url(/public/Banner-proximo-evento-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 800px;
+    padding: 50px;
+}
